@@ -20,8 +20,6 @@ DOI: https://doi.org/10.5281/zenodo.19234295
 
 ### Description
 
-This dataset contains time-series inputs used to train and evaluate machine-learning models for NEA classification.
-
 - The full dataset is provided.
 - Train, validation, and test splits are defined in the code (including the random seed).
 - The dataset is organized into two directories:
@@ -59,17 +57,9 @@ This dataset contains time-series inputs used to train and evaluate machine-lear
 - `best_weights.h5` — pretrained model weights  
 - `requirements.txt` — Python dependencies  
 
+---
+
 ## Installation
 
 ```bash
 pip install -r requirements.txt
-
-## Usage
-
-### Prepare dataset
-
-Download and extract the dataset, then update paths in the script:
-
-```python
-class_0_path = "/path/to/nea_dataset_v1/class_0"
-class_1_path = "/path/to/nea_dataset_v1/class_1"
