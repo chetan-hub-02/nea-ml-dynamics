@@ -66,8 +66,6 @@ This dataset contains time-series inputs used to train and evaluate machine-lear
 ```bash
 pip install -r requirements.txt
 
----
-
 ## Usage
 
 ### Prepare dataset
