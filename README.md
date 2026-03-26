@@ -65,3 +65,15 @@ This dataset contains time-series inputs used to train and evaluate machine-lear
 
 ```bash
 pip install -r requirements.txt
+
+---
+
+## Usage
+
+### Prepare dataset
+
+Download and extract the dataset, then update paths in the script:
+
+```python
+class_0_path = "/path/to/nea_dataset_v1/class_0"
+class_1_path = "/path/to/nea_dataset_v1/class_1"
